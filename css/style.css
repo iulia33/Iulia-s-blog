@@ -1,0 +1,262 @@
+*{
+	margin:0 auto;
+}
+
+body{
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;	
+	color:#008000;
+	background-color:#AAA180;	
+	background-image:url("../images/backgr-little-girl.jpg");
+	background-attachment:fixed;
+}
+
+.content{
+	width: 80%;
+}
+
+a{
+	text-decoration:none;
+	color:#FFF;
+}
+
+
+h1{
+	font-size:30px;
+}
+
+h2{
+	font-size:25px;
+	padding-bottom:5px;
+}
+
+h3{
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+
+/*Header*/
+
+header{	
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	background-color: #AAA180;
+}
+
+header h1{	
+	font-family:"Sofia";
+	margin-left: 10%;
+	color:#8B0000;
+}
+
+header p{
+	font-family:Sofia;	
+	font-size:20px;
+	padding-bottom:5px;
+}
+
+header a{
+	color:#8B0000;
+}
+
+/*Menu Bar*/
+
+nav{
+	width:80%;
+	margin:0 auto;	
+	position:fixed;
+	top:10px;
+	left: 10%;
+}
+
+nav h2{
+	display: none;
+}
+
+.menu{	
+	list-style:none;
+	margin:5px;	
+	float:right;
+}
+
+.menu li{
+	display:inline-block;	
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-left:30px;
+	padding-bottom: 5px;
+}
+
+.menu li a:hover, .menu li a:active{
+	color:#161815;
+}
+
+/*Submenu Styling*/
+
+.submenu{
+	padding-left: 0;
+	display: none;
+	position: absolute;
+	background-color: #AAA180;
+	min-width: 100%;
+	z-index: 1;
+}
+
+.submenu li{
+	display: inline-block;
+	margin-left: 0;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown:hover .submenu{
+	display: block;
+}
+/*Index page styling*/
+
+main{
+	margin:200px 20px 0 0px;
+	width:75%;
+	float:left;
+}
+
+.main-page{	
+	margin:200px 0 0 0;
+	width:95%;
+	text-align:justify;
+}
+
+.main-page:first-of-type{
+	margin-top: 0;
+}
+
+.main-page:last-of-type{
+	margin-bottom: 20px;
+}
+
+.main-page img{
+	float: right;
+	margin:0 20px;
+	border:2px solid #FFF;
+	margin-bottom: 20px;
+}
+
+.general-description{
+	margin:200px 0 0 0;
+	width:95%;
+	float:left;
+}
+
+.general-description h2{
+	padding-left: 10px;
+}
+
+.general-description:first-of-type{
+	margin-top: 0;
+}
+
+.specific{
+	width:33%;
+	padding: 0 10px;
+	float: left;
+}
+
+aside{
+	width:20%;
+	margin:200px 0;
+	float:left;
+}
+
+aside h2{
+	display: none;
+}
+
+.blogs, .mostread, .nystories, .trivia{
+	font-weight:bold;
+	color:#FFF;
+	border:5px solid #8B0000;
+	border-radius:20px;
+	padding:10px;
+	margin-bottom: 20px;
+}
+
+.blogs h3, .mostread h3, .nystories h3, .trivia h3{
+	border-bottom: 3px dashed #8B0000;
+}
+.blogs a:hover, .mostread a:hover, .nystories a:hover{
+	color:#008000;		
+		
+}
+
+.trivia select{
+	width:80%;
+}
+
+.blogs ul, .mostread ul, .nystories ul{
+	list-style:none;
+	padding-left: 0;
+	padding-top: 10px;
+}
+
+.blogs li, .mostread li, .nystories li{
+	margin-top:2px;
+	padding-bottom: 10px;
+}
+
+legend{
+	font-size:20px;
+	font-weight:bold;
+}
+
+[for]{
+	font-weight:bold;
+	padding:0 25px;	
+}
+
+.name, .email{
+	width:300px;
+	margin-bottom:10px;
+}
+
+.message{
+	margin:10px 0;
+	margin-left:25px;
+}
+
+.send{
+	width:100px;
+	margin-left:25px;
+	margin-bottom:10px;
+}
+
+
+footer{
+	clear:both;
+	width: 100%;
+	text-align:center;
+	border-top:1px solid #008000;
+	padding-bottom: 10px;
+}
+
+.contact-links{
+	margin-bottom:5px;
+	padding-top: 10px;
+	
+}
+
+.contact-links h3{
+	display:none;
+}
+
+.red-border{
+	border:1px solid #FF0000;
+}
+
+.hide{
+	display:none;
+}
